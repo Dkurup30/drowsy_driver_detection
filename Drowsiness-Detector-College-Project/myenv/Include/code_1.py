@@ -11,7 +11,7 @@ def calculate_EAR(eye):
 
 cap = cv2.VideoCapture(0)
 hog_face_detector = dlib.get_frontal_face_detector()
-dlib_facelandmark = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat\shape_predictor_68_face_landmarks.dat")
+dlib_facelandmark = dlib.shape_predictor("Drowsiness-Detector-College-Project\shape_predictor_68_face_landmarks.dat\shape_predictor_68_face_landmarks.dat")
 
 while True:
     _, frame = cap.read()
